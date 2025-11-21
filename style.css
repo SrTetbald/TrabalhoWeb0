@@ -1,6 +1,6 @@
 /*#region VARIÁVEIS E RESET */
 :root {
-    --azul-escuro: #0d47a1;
+    --azul-escuro: #0F3B8C;
     --azul-link: #bbdefb; 
     --fundo-claro: #f4f4f4; 
     --status-verde: #4caf50;
@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Lato, sans-serif;
     background-color: var(--fundo-claro);
 }
 /*#endregion*/
