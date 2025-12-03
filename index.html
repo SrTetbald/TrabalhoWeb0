@@ -1,32 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Esqueleto do Site Mobile</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <input type="checkbox" id="menu-toggle" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Esqueleto do Site Mobile</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<input type="checkbox" id="menu-toggle" />
 
-    <nav class="sidebar">
-      <label for="menu-toggle" class="btn-fechar">&times;</label>
-      <div class="logo">LOGO</div>
-      <ul>
-        <li><a href="#eventos">Eventos</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#cursos">Cursos</a></li>
-      </ul>
-    </nav>
+		<header class="main-header">
+			<div class="logo">LOGO</div>
+			<nav class="sidebar">
+				<label for="menu-toggle" class="btn-fechar">&times;</label>
+				<div class="logo">LOGO</div>
+				<ul>
+					<li><a href="#eventos">Eventos</a></li>
+					<li><a href="#projetos">Projetos</a></li>
+					<li><a href="#cursos">Cursos</a></li>
+				</ul>
+			</nav>
+			<label for="menu-toggle" class="btn-menu">&#9776;</label>
+		</header>
 
-    <header class="main-header">
-      <div class="logo">LOGO</div>
-      <h1 class="page-title">Extensões</h1>
-      <label for="menu-toggle" class="btn-menu">&#9776;</label>
-    </header>
+		<main class="content">
+			<h1 class="titulo-pagina-conteudo">Extensões</h1>
 
-    <main class="content">
-      <h1 class="titulo-pagina-conteudo">Extensões</h1>
+			<section id="eventos" class="bloco-secao fundo-escuro">
+				<h2>Cursos</h2>
+				<div class="card-container">
+					<div class="card-item">
+						<div class="img-espaco"><img /></div>
+						<div class="info-box dark-box">
+							<p class="nome">
+								Curso de Boas Práticas do Hospital Veterinário
+								da UFRRJ
+							</p>
+							<p class="descricao">
+								O HV-UFRRJ promoverá um curso de 40 horas sobre
+								boas práticas e elaboração de POPs. O objetivo é
+								padronizar processos, garantir conformidade
+								legal e aprimorar a qualidade e segurança. A
+								formação é destinada a servidores, docentes,
+								terceirizados, residentes e estudantes
+								vinculados ao hospital.
+							</p>
+							<div class="detalhes">
+								<span class="data"
+									>Inscrições: 17/11/2025 à 27/11/2025</span
+								>
+								<a href="#" class="saiba-mais">saiba mais</a>
+								<span class="status">INSCRICÕES ABERTAS</span>
+							</div>
+						</div>
+					</div>
+					<div class="card-item">
+						<div class="img-espaco">IMG</div>
+						<div class="info-box dark-box">
+							<p class="nome">
+								Cueso de Aperfeiçoamento para agentes de
+								saneamento da CEDAE em tratamento de água
+							</p>
+							<p class="descricao">
+								A PROEXT/UFRRJ e a UniverCEDAE oferecerão um
+								curso de 200 horas para capacitar 200 agentes da
+								CEDAE no tratamento de água. A formação integra
+								teoria e prática, abordando fundamentos
+								científicos, segurança e gestão da qualidade. A
+								iniciativa apoia os ODS ao promover educação e
+								gestão sustentável da água.
+							</p>
+							<div class="detalhes">
+								<span class="data"
+									>Incrições: 01/10/2025 à 10/10/1015</span
+								>
+								<a href="#" class="saiba-mais">saiba mais</a>
+								<span class="status"
+									>INSCRICÕES ENCERRADAS</span
+								>
+							</div>
+						</div>
+					</div>
+					<div class="card-item">
+						<div class="img-espaco">IMG</div>
+						<div class="info-box dark-box">
+							<p class="nome">
+								Curso Replantica para Comunidades Locais
+							</p>
+							<p class="descricao">
+								O curso Replantica oferecerá 80 horas de
+								formação para jovens da comunidade da REGUA
+								sobre restauração florestal. A capacitação
+								inclui vivências práticas e conteúdos sobre a
+								cadeia produtiva da restauração. Temas
+								transversais ajudarão a relacionar conservação,
+								economia, qualidade de vida e resiliência
+								climática.
+							</p>
+							<div class="detalhes">
+								<span class="data"
+									>Inscrções: 03/09/2025 á 09/09/2025</span
+								>
+								<a href="#" class="saiba-mais">saiba mais</a>
+								<span class="status"
+									>INSCRICÕES ENCERRADAS</span
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
       <section id="eventos" class="bloco-secao fundo-escuro">
         <h2>Cursos</h2>
