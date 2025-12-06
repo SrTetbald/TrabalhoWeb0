@@ -69,11 +69,15 @@ body {
 
 @media (min-width: 1024px) {
 	.main-header .logo {
-		background-color: var(--azul-escuro);
 		color: var(--branco);
 	}
 }
 
+.main-header .logo img {
+	max-width: 100%;
+	height: auto;
+	max-height: 40px;
+}
 .page-title {
 	display: none;
 	flex: 1;
@@ -187,6 +191,13 @@ body {
 	.sidebar .logo {
 		display: none;
 	}
+}
+
+.sidebar .logo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 50px; 
+    display: block;
 }
 
 .sidebar ul {
